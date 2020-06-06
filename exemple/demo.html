@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="../src/jquery-1.7.2.min.js"></script>
+    <script src="../src/glomo-widget.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="col-md-5">
+            <div class="right border">
+                <div class="header">Order Summary</div>
+                
+                <div class="row lower">
+                    <div class="col text-left">Subtotal</div>
+                    <div class="col text-right">4698 CFA</div>
+                </div>
+                <div class="row lower">
+                    <div class="col text-left">Delivery</div>
+                    <div class="col text-right">Free</div>
+                </div>
+                <div class="row lower">
+                    <div class="col text-left"><b>Total to pay</b></div>
+                    <div class="col text-right"><b>4698 CFA</b></div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-md-12 text-center">
+
+                        <div id="widget"></div>
+                    </div>
+                </div> 
+                <p class="text-muted text-center">Complimentary Shipping & Returns</p>
+            </div>
+        </div>
+    </div>
+
+<script>
+
+    $(document).ready(function () {
+     $("#widget").GlomoPay({
+         setServiceId: "S8547",
+         setAmount: "4698",
+         setLogoUrl: "https://www.graphicsprings.com/filestorage/stencils/91c73bdb7781b24c4942ebe9d1a32fa3.svg",
+         setServiceName: "SHOPDEV",
+         setLang: "en",
+         setLabel: "",
+         setPaymentRef: "05385170028",
+         setCallbackUrl: "https://webhook.site/834d8fcd-f70f-495a-b049-f3e1e72a6c05",
+         
+     });
+ })
+ 
+ </script>
+</body>
+</html>
