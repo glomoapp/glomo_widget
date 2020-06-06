@@ -47,7 +47,7 @@ once you have finished the installation place the following code where you want 
 <div id="widget"></div>
 ```
 
-![screenshot](/pay.PNG)
+![screenshot](pay.PNG)
 
 Supported languages are restricted to the following:
 
