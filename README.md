@@ -19,7 +19,7 @@ Glomo Money is build to assist you in managing your day to day financial transac
 
  ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="http://payment.widget.glomoapp.com/assets/js/glomo-widget.min.js"></script>
+<script src="https://payment.widget.glomoapp.com/assets/js/glomo-widget.min.js"></script>
 ```
 
 ## Installation
