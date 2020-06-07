@@ -9,7 +9,7 @@ Glomo Money is build to assist you in managing your day to day financial transac
 - Internal & External transfers; between Glomo account holders and from an account holder to a non-account holder
 
 ## Docummentation
-* [Docummentation](https://payment.widget.glomoapp.com)
+* [Docummentation](http://payment.widget.glomoapp.com)
 
 ## Requirements
 
