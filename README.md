@@ -30,6 +30,7 @@ Glomo Money is build to assist you in managing your day to day financial transac
  $(document).ready(function () {
     $("#widget").GlomoPay({
         setServiceId: "",
+        setTestMode: "0",
         setServiceName: "",
         setPaymentRef: "",
         setAmount: "",
